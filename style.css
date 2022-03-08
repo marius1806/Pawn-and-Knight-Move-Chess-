@@ -1,0 +1,47 @@
+* {
+    height: auto;
+    width: auto;
+}
+
+body {
+    background: linear-gradient(to right, rgb(197, 116, 62), rgb(94, 43, 9));
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    width: 735px;
+    height: 735px;
+    display: flex;
+    justify-content: center;
+    border: double rgb(49, 24, 1) 15px;
+    border-radius: 2%;
+}
+
+.box {
+    width: 90px;
+    height: 90px;
+    border: double rgb(49, 24, 1) 1px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.box:hover {
+    border: chocolate double 1px;
+}
+
+.box:active {
+    cursor: pointer;
+}
+
+span {
+    cursor: pointer;
+    z-index: 2;
+    font-size: 70px;
+}
+
+.white {
+    color: white;
+}
+
